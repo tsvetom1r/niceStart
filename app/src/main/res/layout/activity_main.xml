@@ -100,15 +100,15 @@
         app:layout_constraintStart_toStartOf="@id/leftguide"
         app:layout_constraintEnd_toEndOf="@id/rightguide">
 
-            <com.google.android.material.button.MaterialButton
-                style="@style/button1"
-                android:id="@+id/botsign"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="LOGIN"
-                android:textColor="@color/purple_500">
+        <com.google.android.material.button.MaterialButton
+            style="@style/button1"
+            android:id="@+id/botsign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/purple_500">
 
-            </com.google.android.material.button.MaterialButton>
+        </com.google.android.material.button.MaterialButton>
 
 
 
@@ -135,4 +135,4 @@
         </com.google.android.material.button.MaterialButton>
     </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
