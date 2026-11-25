@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".MainActivity">
+    tools:context=".Login">
     <ImageView
         android:src="@drawable/girl"
         android:id="@+id/girl"
@@ -102,6 +102,7 @@
 
         <com.google.android.material.button.MaterialButton
             style="@style/button1"
+            android:onClick="openSignup"
             android:id="@+id/botsign"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
