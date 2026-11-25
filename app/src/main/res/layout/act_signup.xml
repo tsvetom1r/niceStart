@@ -8,8 +8,8 @@
     android:background="@drawable/gradient"
     tools:context=".MainActivity">
     <ImageView
-        android:src="@drawable/girl"
-        android:id="@+id/girl"
+        android:src="@drawable/hipman"
+        android:id="@+id/hipp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart"
